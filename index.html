@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Required meta tags-->
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <title>Simple Note-Book</title>
+</head>
+
+<body>
+    <div class="note">
+        <h2>Note Taking App</h2>
+        <div class="note-input">
+            <h3>Add New Note</h3>
+            <div class="note-wrapper">
+                <input type="text" id="note-title" placeholder="Title of your note">
+                <textarea id="note-content" placeholder="Write your note here...." rows="5"></textarea>
+                <button id="add-note-btn" class="btn" type="button">
+                    <span><i class="fas fa-plus"></i></span>
+                    Add Note
+                </button>
+            </div>
+        </div>
+        <div class="note-list">
+            <!--  <div class="note-item">
+                <h3>The Title goes here</h3>
+                <p>uigvusgvuhsivohWVH HIOVHSIOVH</p>
+                <button id="add-note-btn" class="btn" type="button">
+                    <span><i class="fas fa-trash"></i></span>
+                    Delete 
+                </button>
+            </div> -->
+
+        </div>
+
+        <button type="button" class="btn" id="delete-all-btn">
+            <span><i class="fas fas-trash"></i></span>
+            Delete All
+        </button>
+        <div class="creator">
+            <h4>By Shourav</h4>
+        </div>
+    </div>
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
